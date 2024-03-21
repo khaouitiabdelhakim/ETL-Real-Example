@@ -1,0 +1,10 @@
+CREATE TABLE dbo.Dates
+(
+DateKey INT NOT NULL IDENTITY(1,1),
+FullDate DATE NOT NULL,
+MonthNumberName NVARCHAR(15) NULL,
+CalendarQuarter TINYINT NULL,
+CalendarYear SMALLINT NULL,
+CONSTRAINT PK_Dates PRIMARY KEY (DateKey)
+);
+GO

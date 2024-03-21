@@ -1,0 +1,7 @@
+DESKTOP-6DF0MH8
+AdventureWorksDW2012
+
+SELECT        
+FROM            DimProduct INNER JOIN
+                         DimProductSubcategory ON DimProduct.ProductSubcategoryKey = DimProductSubcategory.ProductSubcategoryKey INNER JOIN
+                         DimProductCategory ON DimProductSubcategory.ProductCategoryKey = DimProductCategory.ProductCategoryKey

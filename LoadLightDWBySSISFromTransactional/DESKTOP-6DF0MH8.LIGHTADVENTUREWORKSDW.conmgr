@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-6DF0MH8.LIGHTADVENTUREWORKSDW"
+  DTS:DTSID="{FCB6C7AF-B32F-4505-8293-FEDD3CD3EAA6}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-6DF0MH8;Initial Catalog=LIGHTADVENTUREWORKSDW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-LoadLightDWBySSISFromTransactional-{FCB6C7AF-B32F-4505-8293-FEDD3CD3EAA6}DESKTOP-6DF0MH8.LIGHTADVENTUREWORKSDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

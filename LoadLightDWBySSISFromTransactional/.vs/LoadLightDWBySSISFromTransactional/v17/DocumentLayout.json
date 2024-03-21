@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abdel\\source\\repos\\LoadLightDWBySSISFromTransactional\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E75D56F-E7E8-412F-8204-BDBED7D97832}|LoadLightDWBySSISFromTransactional.dtproj|C:\\Users\\abdel\\source\\repos\\LoadLightDWBySSISFromTransactional\\LoadLightDWBySSIS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{9E75D56F-E7E8-412F-8204-BDBED7D97832}|LoadLightDWBySSISFromTransactional.dtproj|solutionrelative:LoadLightDWBySSIS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoadLightDWBySSIS.dtsx [Design]",
+              "DocumentMoniker": "C:\\Users\\abdel\\source\\repos\\LoadLightDWBySSISFromTransactional\\LoadLightDWBySSIS.dtsx",
+              "RelativeDocumentMoniker": "LoadLightDWBySSIS.dtsx",
+              "ToolTip": "C:\\Users\\abdel\\source\\repos\\LoadLightDWBySSISFromTransactional\\LoadLightDWBySSIS.dtsx [Design]",
+              "RelativeToolTip": "LoadLightDWBySSIS.dtsx [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-21T14:11:34.505Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
