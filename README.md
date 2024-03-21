@@ -16,6 +16,10 @@ If you'd like to support further, consider buying us a coffee:
 
 The goal of this project is to demonstrate how to extract data from transactional databases, transform it, and load it into a data warehouse. We will achieve this by performing complex queries involving multiple table joins.
 
+You'll find in this repository:
+- All the completed project files.
+- All the queries used to perform the work in the "Queries" folder.
+
 ## Instructions
 
 ### Prerequisites
