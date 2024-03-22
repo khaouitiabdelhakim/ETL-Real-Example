@@ -4,11 +4,6 @@ INSERT INTO
         CustomerKey,
         FullName,
         EmailAddress,
-        Birthdate,
-        MaritalStatus,
-        Gender,
-        Education,
-        Occupation,
         City,
         StateProvince,
         CountryRegion
@@ -18,11 +13,6 @@ SELECT
     C.CustomerID AS CustomerKey,
     P.FirstName + ' ' + P.LastName AS FullName,
     E.EmailAddress,
-    V.Birthdate,
-    V.MaritalStatus,
-    V.Gender,
-    V.Education,
-    V.Occupation,
     A.City,
     SP.Name AS StateProvinceName,
     CR.Name AS CountryRegionName
@@ -33,5 +23,4 @@ FROM
     INNER JOIN AdventureWorks2012.Person.BusinessEntityAddress AS BEA ON P.BusinessEntityID = BEA.BusinessEntityID
     INNER JOIN AdventureWorks2012.Person.Address AS A ON BEA.AddressID = A.AddressID
     INNER JOIN AdventureWorks2012.Person.StateProvince AS SP ON A.StateProvinceID = SP.StateProvinceID
-    INNER JOIN AdventureWorks2012.Person.CountryRegion AS CR ON SP.CountryRegionCode = CR.CountryRegionCode
-    INNER JOIN AdventureWorks2012.Sales.vPersonDemographics AS V ON P.BusinessEntityID = V.BusinessEntityID;
+    INNER JOIN AdventureWorks2012.Person.CountryRegion AS CR ON SP.CountryRegionCode = CR.CountryRegionCode;
