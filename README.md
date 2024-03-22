@@ -81,7 +81,7 @@ We hope you find this repository helpful!
 ## License
 
 ```
-Copyright 2024 Bengmah Anass - KHAOUITI Abdelhakim
+Copyright 2024 KHAOUITI Abdelhakim
 powered by KHAOUITI Apps
 
 Licensed under the MIT License
